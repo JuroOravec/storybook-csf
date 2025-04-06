@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "storybook_csf"
-version = "1.0.0"
+version = "1.0.1"
 requires-python = ">=3.8, <4.0"
 description = "Write Storybook stories in Python - Typings for Storybook and the Component Story Format (CSF)"
 keywords = ["storybook", "server", "types", "csf"]
