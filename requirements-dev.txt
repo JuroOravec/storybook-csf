@@ -32,9 +32,11 @@ flake8-pyproject==1.2.3
     # via -r requirements-dev.in
 identify==2.6.7
     # via pre-commit
+importlib-metadata==8.7.0
+    # via isort
 iniconfig==2.0.0
     # via pytest
-isort==6.0.1
+isort==6.1.0
     # via -r requirements-dev.in
 mccabe==0.7.0
     # via flake8
@@ -100,3 +102,5 @@ virtualenv==20.29.2
     # via
     #   pre-commit
     #   tox
+zipp==3.23.0
+    # via importlib-metadata
