@@ -4,6 +4,8 @@
 #
 #    pip-compile requirements-dev.in
 #
+ast-serialize==0.5.0
+    # via mypy
 black==25.11.0
     # via -r requirements-dev.in
 cachetools==5.5.1
@@ -32,17 +34,15 @@ flake8-pyproject==1.2.4
     # via -r requirements-dev.in
 identify==2.6.7
     # via pre-commit
-importlib-metadata==8.7.0
-    # via isort
 iniconfig==2.0.0
     # via pytest
 isort==6.1.0
     # via -r requirements-dev.in
-librt==0.7.3
+librt==0.11.0
     # via mypy
 mccabe==0.7.0
     # via flake8
-mypy==1.19.1
+mypy==2.1.0
     # via -r requirements-dev.in
 mypy-extensions==1.0.0
     # via
@@ -56,7 +56,7 @@ packaging==24.2
     #   pyproject-api
     #   pytest
     #   tox
-pathspec==0.12.1
+pathspec==1.1.1
     # via
     #   black
     #   mypy
@@ -104,5 +104,3 @@ virtualenv==20.29.2
     # via
     #   pre-commit
     #   tox
-zipp==3.23.0
-    # via importlib-metadata
