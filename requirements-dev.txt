@@ -32,8 +32,6 @@ flake8-pyproject==1.2.4
     # via -r requirements-dev.in
 identify==2.6.7
     # via pre-commit
-importlib-metadata==8.7.0
-    # via isort
 iniconfig==2.0.0
     # via pytest
 isort==6.1.0
@@ -79,7 +77,7 @@ pygments==2.19.1
     # via pytest
 pyproject-api==1.8.0
     # via tox
-pytest==8.4.2
+pytest==9.1.1
     # via -r requirements-dev.in
 pytokens==0.3.0
     # via black
@@ -104,5 +102,3 @@ virtualenv==20.29.2
     # via
     #   pre-commit
     #   tox
-zipp==3.23.0
-    # via importlib-metadata
